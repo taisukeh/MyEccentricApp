@@ -15,6 +15,15 @@
 		09B07E8A1EF3C5D30009A953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B07E881EF3C5D30009A953 /* LaunchScreen.storyboard */; };
 		09B07E951EF3C5D30009A953 /* MyEccentricAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B07E941EF3C5D30009A953 /* MyEccentricAppTests.swift */; };
 		09B07EA01EF3C5D30009A953 /* MyEccentricAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B07E9F1EF3C5D30009A953 /* MyEccentricAppUITests.swift */; };
+		1F3638E416BF63CA74EAAA15 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD079B85E05C68B8E3BFC29B /* QuartzCore.framework */; };
+		374A5369A4DE6921C7FCF2FB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D90A226094C3B59D9B74736 /* AVFoundation.framework */; };
+		46AB940B0A3D426ACBF70BAA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E33A0A7FA16ACE462919B19 /* CoreVideo.framework */; };
+		47D9069230392CE4DC38D2CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3692EF19DA77573607E1A5D9 /* SystemConfiguration.framework */; };
+		6D651E98B789F7CDD63EBA82 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029DE6AAC3E821968E0F24A5 /* CoreText.framework */; };
+		940F0F753A430D1FE76E5F4D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9237C673049F6211E417325E /* CoreTelephony.framework */; };
+		961E1587ED517E7C26D2EAB1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA92EEDFE5EA145FC8BBBF5D /* CoreMedia.framework */; };
+		9BCAA86F64C74F329D87070D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B114031403FDD4EFCBF586 /* AssetsLibrary.framework */; };
+		AFB27B484F13FE1A58CBC64E /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8C98B727E6B082251A4573 /* BuddyBuildSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029DE6AAC3E821968E0F24A5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		09B07E7A1EF3C5D30009A953 /* MyEccentricApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEccentricApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B07E7D1EF3C5D30009A953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09B07E7F1EF3C5D30009A953 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,15 @@
 		09B07E9B1EF3C5D30009A953 /* MyEccentricAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEccentricAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B07E9F1EF3C5D30009A953 /* MyEccentricAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEccentricAppUITests.swift; sourceTree = "<group>"; };
 		09B07EA11EF3C5D30009A953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E33A0A7FA16ACE462919B19 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3692EF19DA77573607E1A5D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		38195B3E2D3E9DE4F4162024 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		3C8C98B727E6B082251A4573 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		5D90A226094C3B59D9B74736 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9237C673049F6211E417325E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		AA92EEDFE5EA145FC8BBBF5D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B7B114031403FDD4EFCBF586 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		BD079B85E05C68B8E3BFC29B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB27B484F13FE1A58CBC64E /* BuddyBuildSDK.framework in Frameworks */,
+				9BCAA86F64C74F329D87070D /* AssetsLibrary.framework in Frameworks */,
+				6D651E98B789F7CDD63EBA82 /* CoreText.framework in Frameworks */,
+				940F0F753A430D1FE76E5F4D /* CoreTelephony.framework in Frameworks */,
+				47D9069230392CE4DC38D2CB /* SystemConfiguration.framework in Frameworks */,
+				1F3638E416BF63CA74EAAA15 /* QuartzCore.framework in Frameworks */,
+				374A5369A4DE6921C7FCF2FB /* AVFoundation.framework in Frameworks */,
+				961E1587ED517E7C26D2EAB1 /* CoreMedia.framework in Frameworks */,
+				46AB940B0A3D426ACBF70BAA /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +111,8 @@
 				09B07E931EF3C5D30009A953 /* MyEccentricAppTests */,
 				09B07E9E1EF3C5D30009A953 /* MyEccentricAppUITests */,
 				09B07E7B1EF3C5D30009A953 /* Products */,
+				71C33D057EAFFF6F993058D6 /* Frameworks */,
+				38195B3E2D3E9DE4F4162024 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +156,22 @@
 				09B07EA11EF3C5D30009A953 /* Info.plist */,
 			);
 			path = MyEccentricAppUITests;
+			sourceTree = "<group>";
+		};
+		71C33D057EAFFF6F993058D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C8C98B727E6B082251A4573 /* BuddyBuildSDK.framework */,
+				B7B114031403FDD4EFCBF586 /* AssetsLibrary.framework */,
+				029DE6AAC3E821968E0F24A5 /* CoreText.framework */,
+				9237C673049F6211E417325E /* CoreTelephony.framework */,
+				3692EF19DA77573607E1A5D9 /* SystemConfiguration.framework */,
+				BD079B85E05C68B8E3BFC29B /* QuartzCore.framework */,
+				5D90A226094C3B59D9B74736 /* AVFoundation.framework */,
+				AA92EEDFE5EA145FC8BBBF5D /* CoreMedia.framework */,
+				1E33A0A7FA16ACE462919B19 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,11 +464,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyEccentricApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.taisukeh.MyEccentricApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -431,11 +482,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyEccentricApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.taisukeh.MyEccentricApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
